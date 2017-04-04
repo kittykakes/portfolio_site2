@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Responsive Bootstrap 3 Theme for Jekyll",
   "author": "fractma",
+  "scripts": {
+    "start": "grunt watch"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
