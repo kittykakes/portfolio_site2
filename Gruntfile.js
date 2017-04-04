@@ -45,12 +45,12 @@ module.exports = function(grunt) {
         recess: {
           options: {
                 compile: true,
-                compress: true 
+                compress: false 
           },
 
           app: {
-            src: ['_less/main.less'],
-            dest: './css/main.css'
+            src: ['_less/main.less', '_less/kitty.less'],
+            dest: 'css/main.css'
           }
         },
 

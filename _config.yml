@@ -2,7 +2,7 @@
 # -------------------------
 
 current_version:  1.0.0
-name: 			  Kunstnerisk
+name: 			  HMT design
 
 # Main Logo
 # -------------------------
@@ -35,8 +35,8 @@ navbar_color: "caribbean-green"
 # Image Hero
 # -------------------------
 
-title:            "Kunstnerisk"
-tagline:      	  "a responsive bootstrap three theme for jekyll"
+title:            "HMT design"
+tagline:      	  "meow!"
 
 # Features Thumbs
 # -------------------------
