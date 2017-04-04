@@ -148,5 +148,5 @@ highlighter: 		  false
 permalink: 		  none
 
 # Server
-destination: 	 ./_site
-exclude: 		  [".gitignore", "Gruntfile.js", ".gitignore", Gemfile", "README.md", Gemfile.lock", "Procfile", "_site", "node_modules", "package.json", "vendor"]
+destination: 	 ./docs
+exclude: 		  [".gitignore", "Gruntfile.js", "Rakefile", "config.ru", ".gitignore", "Gemfile", "README.md", "Gemfile.lock", "Procfile", "docs", "node_modules", "package.json", "vendor"]
