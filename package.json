@@ -4,9 +4,10 @@
   "description": "Responsive Bootstrap 3 Theme for Jekyll",
   "author": "fractma",
   "scripts": {
-    "start": "grunt watch"
+    "postinstall": "grunt concat; grunt recess:app",
+    "start": "jekyll serve"
   },
-  "devDependencies": {
+  "dependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-shell": "~0.4.0",
