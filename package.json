@@ -1,6 +1,9 @@
 {
   "name": "Kunstnerisk",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.9.4"
+  },
   "description": "Responsive Bootstrap 3 Theme for Jekyll",
   "author": "fractma",
   "scripts": {
@@ -8,10 +11,10 @@
     "start": "jekyll serve"
   },
   "dependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-shell": "~0.4.0",
-    "grunt-recess": "~0.4.0",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-recess": "^1.0.1",
+    "grunt-shell": "^2.1.0"
   }
 }
