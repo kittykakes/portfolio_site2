@@ -7,8 +7,7 @@
   "description": "Responsive Bootstrap 3 Theme for Jekyll",
   "author": "fractma",
   "scripts": {
-    "postinstall": "grunt concat; grunt recess:app",
-    "start": "jekyll serve"
+    "postinstall": "grunt concat; grunt recess:app"
   },
   "dependencies": {
     "grunt": "^1.0.1",
