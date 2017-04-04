@@ -101,6 +101,8 @@ textarea {
    Custom Variables
    ========================================================================== */
 
+/* @hero-background-image          : '../media/img/hero-image.jpg' ; */
+
 /* ==========================================================================
    Mixins
    ========================================================================== */
@@ -625,7 +627,7 @@ body {
 }
 
 .hero-image {
-  background: transparent url('../media/img/hero-image.jpg') center 0 no-repeat fixed;
+  background: transparent url('../media/img/hero-cuba.jpg') center 0 no-repeat fixed;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -1425,9 +1427,5 @@ p {
 }
 
 .welcome h1 {
-  text-transform: none !important;
-}
-
-#Foo {
-  text-transform: none !important;
+  text-transform: lowercase;
 }

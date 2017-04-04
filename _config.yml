@@ -17,8 +17,6 @@ logo_small_devices: "media/logo/logo_small.png"
 navbar_links:
   - title: "Home"
     url: "#image-hero"
-  - title: "Features"
-    url: "#features"
   - title: "Services"
     url: "#services"
   - title: "Work"
@@ -35,7 +33,7 @@ navbar_color: "caribbean-green"
 # Image Hero
 # -------------------------
 
-title:            "HMT design"
+title:            "HMT design!"
 tagline:      	  "meow!"
 
 # Features Thumbs
