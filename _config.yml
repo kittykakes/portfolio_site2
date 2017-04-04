@@ -149,4 +149,4 @@ permalink: 		  none
 
 # Server
 destination: 	 ./_site
-exclude: 		  [".gitignore", "Gruntfile.js", ".gitignore", Gemfile", "README.md", Gemfile.lock", "Procfile", "_site", "node_modules", "package.json"]
+exclude: 		  [".gitignore", "Gruntfile.js", ".gitignore", Gemfile", "README.md", Gemfile.lock", "Procfile", "_site", "node_modules", "package.json", "vendor"]
