@@ -150,4 +150,3 @@ permalink: 		  none
 # Server
 destination: 	 ./_site
 exclude: 		  [".gitignore", "Gruntfile.js", "_site", "node_modules", "package.json"]
-port: 			  1984
