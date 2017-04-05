@@ -103,6 +103,8 @@ textarea {
 
 /* @hero-background-image          : '../media/img/hero-image.jpg' ; */
 
+/* @hero-background-image: '../media/img/hero-cuba.jpg' ; */
+
 /* ==========================================================================
    Mixins
    ========================================================================== */
@@ -627,7 +629,7 @@ body {
 }
 
 .hero-image {
-  background: transparent url('../media/img/hero-cuba.jpg') center 0 no-repeat fixed;
+  background: transparent url('../media/img/hero-portfolio-mosaic.png') center 0 no-repeat fixed;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -1428,4 +1430,22 @@ p {
 
 .welcome h1 {
   text-transform: lowercase;
+}
+
+img.logo {
+  width: 50px;
+  margin-top: -25px;
+  margin-left: -30px;
+}
+
+.fullscreen-image {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 980px;
+}
+
+.tmp-hero {
+  width: 980px;
+  margin: 0 auto;
 }

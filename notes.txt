@@ -20,4 +20,24 @@
 
 		<!-- Contact -->
 		{% include contact.html %}
+
+
+
 		<!-- End Contact -->		
+
+
+
+
+					<!-- Welcome text -->
+					<div class="welcome" data-0="opacity: 1" data-200="opacity: 0">
+						<h1 class="text-brand-main-color">{{ site.title }}</h1>
+
+						<h4 class="text-white">{{ site.tagline }}</h4>
+					</div>
+					<!-- End Welcome text -->
+
+					<!-- Scroll down arrow -->
+<!-- 					<div class="hero-scroll-down-arrow text-center" data-0="opacity: 1" data-200="opacity: 0">
+						<i class="fa fa-chevron-circle-down fa-5x text-white"></i>
+					</div>
+ -->					<!-- End Scroll down arrow -->
